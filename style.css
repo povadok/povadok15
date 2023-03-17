@@ -22,7 +22,7 @@
         max-width: 1360px;
     }
 
-    .menu-container {
+    .fixed-container__menu {
         padding-top: 65px;
         display: flex;
         justify-content: space-between;
@@ -81,7 +81,7 @@
         margin: 6px 0px;
     }
 
-    .section-container {
+    .sfixed-container__article {
         display: flex;
         justify-content: space-between;
         padding-top: 250px;
@@ -138,7 +138,7 @@
         padding-bottom: 100px;
     }
 
-    .content-about {
+    .fixed-container__content-about {
         justify-content: center;
         max-width: 540px;
     }
@@ -152,7 +152,7 @@
         margin-top: -5p
     }
 
-    .portfolio-link {
+    .fixed-container__portfolio-link {
         max-width: 100%;
     }
 
@@ -173,7 +173,7 @@
 
     }
 
-    .skills {
+    .fixed-container__skills {
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -193,7 +193,7 @@
             margin-bottom: 10;
         }
 
-        .skills span {
+        .fixed-container__skills span {
             font-size: 10px;
         }
     }
@@ -206,7 +206,7 @@
         width: 40%;
     }
 
-    .skills span {
+    .fixed-container__skills span {
         color: #727272;
     }
 
@@ -241,7 +241,7 @@
         background-color: #EEEFF1;
     }
 
-    .content-about h2 {
+    .fixed-container__content-about h2 {
         font-size: 30px;
         text-align: center;
     }
@@ -258,7 +258,7 @@
         padding-top: 100px;
     }
 
-    .process-content {
+    .fixed-container__process-content {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -369,7 +369,7 @@
         padding-top: 142px;
     }
 
-    .contacts {
+    .fixed-container__contacts {
         padding-bottom: 100px;
         height: auto;
         display: flex;
@@ -629,7 +629,7 @@
             display: none;
         }
 
-        .section-container {
+        .fixed-container__article {
             display: block;
             align-content: center;
             padding-top: 50px;
@@ -654,7 +654,7 @@
             font-size: 24px;
         }
 
-        .menu-container {
+        .fixed-container__menu {
             padding-top: 30px;
         }
 
